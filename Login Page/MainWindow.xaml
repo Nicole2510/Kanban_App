@@ -1,0 +1,69 @@
+﻿<Window x:Class="Login_Page.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login_Page"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+
+        </Grid.ColumnDefinitions>
+        <Image Source="C:\Users\Adrian\Downloads\4115230-cancel-close-cross-delete_114048.png" Panel.ZIndex="1" MouseUp="Image_MouseUp" Style="{StaticResource imgClose}" Height="30" Width="30"/>
+
+
+        <Border Background="White" CornerRadius="10 10 10 10" MouseDown="Border_MouseDown">
+            <StackPanel VerticalAlignment="Center" Height="352">
+                <TextBlock Text="Log In" Style="{StaticResource titleText}" Foreground="Black" HorizontalAlignment="Left" Width="209" Height="60"/>
+
+                <Border BorderThickness="1" BorderBrush="#acb0af" Margin="70 7" CornerRadius="5">
+                    <Grid Margin="7 9">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="C:\Users\Adrian\Downloads\email_socialnetwork_20049.png" Height="20"/>
+                        <TextBlock x:Name="textEmail" MouseDown="textEmail_MouseDown"  Text="Email" Style="{StaticResource textHint}"/>
+                        <TextBox x:Name="txtEmail" TextChanged="txtEmail_TextChanged" Style="{StaticResource textBox}"/>
+                    </Grid>
+                </Border>
+
+                <Border BorderThickness="1" BorderBrush="#acb0af" Margin="70 7" CornerRadius="5">
+                    <Grid Margin="7 9">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="C:\Users\Adrian\Desktop\ECE-5010\Images\3643755-hide-lock-locked-padlock-private_113428.png" Height="20"/>
+                        <TextBlock x:Name="textPassword" MouseDown="textPassword_MouseDown" Text="Password" Style="{StaticResource textHint}"/>
+                        <PasswordBox x:Name="txtPassword" PasswordChanged="txtPassword_PasswordChanged" Style="{StaticResource textBox}"/>
+
+
+                    </Grid>
+                </Border>
+                <Button Content="Forgot Password ?" BorderBrush="Transparent" Background="Transparent" Foreground="RoyalBlue" FontSize="12" Margin="0 0 0 5"/>
+
+                <Button Content="Sign In" Click="Button_Click" Style="{StaticResource mainbutton}" Margin="0 0 0 20"/>
+                <TextBlock Text="or continue with" Style="{StaticResource normalText}" Foreground="RoyalBlue" Opacity="0.8"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Style="{StaticResource buttonCircle}">
+                        <Image Source="C:\Users\Adrian\Desktop\ECE-5010\Images\2021_Facebook_icon.svg.png" Width="20" Height="20"/>
+                    </Button>
+
+                    <Button Style="{StaticResource buttonCircle}">
+                        <Image Source="C:\Users\Adrian\Downloads\google_icon-icons.com_62736.png" Width="20" Height="20"/>
+                    </Button>
+
+                    <Button Style="{StaticResource buttonCircle}">
+                        <Image Source="C:\Users\Adrian\Downloads\social_apple_mac_65.png" Width="20" Height="20"/>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\bin\Debug\Login Page.exe.config
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\bin\Debug\Login Page.exe
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\bin\Debug\Login Page.pdb
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\Login Page.csproj.AssemblyReference.cache
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\MainWindow.g.cs
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\App.g.cs
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\Login Page_MarkupCompile.cache
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\Login Page_MarkupCompile.lref
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\App.baml
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\MainWindow.baml
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\Login Page.g.resources
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\Login_Page.Properties.Resources.resources
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\Login Page.csproj.GenerateResource.cache
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\Login Page.csproj.CoreCompileInputs.cache
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\Login Page.exe
+C:\Users\Adrian\Desktop\ECE-5010\KanbanApp\Login Page\obj\Debug\Login Page.pdb
